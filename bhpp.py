@@ -72,4 +72,5 @@ new_data = pd.DataFrame({
 })
 
 predicted_medv = predict_medv(new_data)
-print(predicted_medv)
+result=predicted_medv*1000
+print(f"The predicted price of the house is: {result}$") 
